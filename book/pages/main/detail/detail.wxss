@@ -1,0 +1,107 @@
+/* book/pages/main/detail/detail.wxss */
+.userInfo{
+  width: 100%;
+  height: 12%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid 20rpx #eeeeee;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  /* margin: 25rpx; */
+  border-radius: 50%;
+}
+
+.nickName{
+  margin-left: 10%;
+  margin-top: -5%;
+  font-size: 45rpx;
+  font-weight: 1000;
+}
+
+.book-details{
+  /* background-color: yellow; */
+  width: 100%;
+  position: relative;
+  /* overflow: hidden; */
+  border-bottom: solid 20rpx #eeeeee;
+}
+
+.book-details text{
+  display: block;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-weight: 540;
+}
+
+.book-image{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 3%;
+}
+
+.message{
+  width: 100%;
+  position: relative;
+}
+
+.message-title{
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  font-size: 40rpx;
+}
+
+.message-container{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  width: 90%;
+}
+
+.message-container text{
+  display: block;
+  margin-bottom: 3%;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  background-color: #eeeeee;
+  align-items: center;
+  border-radius: 10px;
+}
+.img-message{
+  width: 10%;
+  height: 30px;
+}
+
+.input-message{
+  width: 80%;
+}
+
+.boss{
+  color: green;
+  font-weight: 800;
+}

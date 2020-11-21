@@ -1,0 +1,38 @@
+<!--book/pages/release/release.wxml-->
+<!-- <text>book/pages/release/release.wxml</text> -->
+
+<view class="release" >
+  <view class="title-container">
+    <text>标题：</text>
+    <input type="text" bindinput="getTitle" auto-focus="true"></input>
+  </view>
+  <view class="type-container">
+    <text>类型：</text>
+    <radio-group bindchange="getType">
+
+      <label class="radio" wx:for="{{types}}" wx:key="key">
+        <radio value="{{item.type}}" checked="{{item.checked}}">{{item.type}}</radio>
+      </label>
+      <!-- <radio>出售</radio> -->
+      <!-- <radio>交换</radio> -->
+    </radio-group>
+  </view>
+  <view class="subject-container">
+    <text>学科：</text>
+    <radio-group bindchange="getSubject">
+      <!-- <radio>理科</radio>
+      <radio>工科</radio>
+      <radio>文科</radio> -->
+      <label class="radio" wx:for="{{subjects}}" wx:key="key">
+        <radio value="{{item.subject}}" checked="{{item.checked}}" >{{item.subject}}</radio>
+      </label>
+    </radio-group>
+  </view>
+  <view class="introduce-container">
+    <text>介绍：</text>
+    <!-- <input type="text"></input> -->
+    <textarea class="input-context" bindblur="getIntroduce" maxlength="500"></textarea>
+  </view>
+  <image bindtap="uploadImg" src='{{flag? tempFilePaths : "/img/release/uploadImg.png"}}' class='uploadImg {{flag? "Uploaded" : ""}}' mode="widthFix"></image>
+  <button class="release-button" hover-class="button-active" bindtap="release">发布</button>
+</view>

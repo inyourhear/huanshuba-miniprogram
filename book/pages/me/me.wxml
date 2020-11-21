@@ -1,0 +1,27 @@
+<!--book/pages/me/me.wxml-->
+
+<view class="all">
+  <view class="info">
+    <image src="{{avatarUrl}}" class="photo" ></image>
+    <view class="nameBoder">
+    <text class="name">{{nickname}}</text>
+    </view>
+  </view>
+
+  <view class="menu" bindtap="jump" data-item="myRelease">
+    <image src="/img/me/release.png" class="icon" mode="widthFix"></image>
+     <text class="text">我发布的</text>
+  </view>
+  <!-- <text class="text">字体大小</text> -->
+
+  <view class="menu" bindtap="jump" data-item="about">
+    <image src="/img/me/about.png" class="icon" mode="widthFix"></image>
+    <text class="text">关于我们</text>
+  </view>
+
+  <view class="menu" bindtap="jump" data-item="myMessage">
+    <image src="/img/me/note.png" class="icon" mode="widthFix"></image>
+    <text class="text">查看留言</text>
+  </view>
+
+</view>

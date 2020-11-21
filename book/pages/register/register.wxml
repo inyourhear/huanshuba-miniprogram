@@ -1,0 +1,12 @@
+<!--book/pages/register/register.wxml-->
+  <form catchsubmit="formSubmit">
+<view class="container">
+
+  <view class="group">
+    <text class="text">学号:</text>
+    <input type="number" name="input" class="input" ></input>
+  </view>
+  <button class="button" style="width: 20%" formType="submit">确认</button>
+
+</view>
+</form>

@@ -1,0 +1,9 @@
+<!--book/pages/templates/top.wxml-->
+<template name="top">
+  <view class="top">
+    <view class="search">
+      <image src="/img/search.png" />
+      <input type="text" placeholder="book name" cursor="5" confirm-type="search" maxlength="30" bindconfirm="search"/>
+    </view>
+  </view>
+</template>

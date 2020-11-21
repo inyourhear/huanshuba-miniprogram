@@ -1,0 +1,58 @@
+/* book/pages/me/me.wxss */
+.all{
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  /* border-bottom: 6rpx solid rgb(137, 138, 139);
+  border-radius:20%; */
+  box-shadow: 0 0 16rpx #999;
+}
+
+.photo{
+  /* 头像显示区域是正方形 */
+  width: 24%;
+  height: 180rpx;
+  border-radius: 50%;
+  margin: 20rpx 20rpx;
+}
+
+.nameBoder{
+  display: flex;
+   width: 76%;
+   justify-content: center;
+   text-align: center;
+   /* border: 2rpx solid #888; */
+}
+
+.name{
+  width: 70%;
+  font-size: x-large;
+  justify-content: center;
+  text-align: center;
+  align-self:center;
+  border-radius: 46%;
+  /* border: 8rpx solid rgb(167, 171, 207); */
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 20rpx;
+  /* border: 2rpx solid #888; */
+}
+
+.icon{
+  width: 10%;
+  margin-right: 12rpx;
+}
+
+.text{
+font-size: large;
+font-weight: 600;
+color: rgb(129, 127, 127);
+align-self:center;
+}

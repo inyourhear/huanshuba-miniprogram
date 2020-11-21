@@ -1,0 +1,5 @@
+<import src="/template/top/top.wxml"></import>
+<import src="/template/book/book.wxml"></import>
+
+<template is="top"></template>
+<template is="book" data="{{bookLeftList:bookLeftList, bookRightList:bookRightList}}"></template>

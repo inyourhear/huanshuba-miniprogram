@@ -1,0 +1,20 @@
+<template name="book">
+  <view class="container">
+    <view class="left">
+      <block wx:for="{{bookLeftList}}" wx:key="key">
+        <view bindtap="getDetailClick" data-id="{{item.book_id}}">
+          <image src="{{item.book_picture}}" mode="widthFix"></image>
+          <text>{{item.book_title}}</text>
+        </view>
+      </block>
+    </view>
+    <view class="right">
+      <block wx:for="{{bookRightList}}" wx:key="key">
+        <view bindtap="getDetailClick" data-id="{{item.book_id}}">
+          <image src="{{item.book_picture}}" mode="widthFix"></image>
+          <text>{{item.book_title}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

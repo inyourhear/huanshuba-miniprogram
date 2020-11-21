@@ -1,0 +1,11 @@
+<!--book/pages/classify/classify.wxml-->
+<import src="/template/top/top.wxml"></import>
+<import src="/template/book/book.wxml"></import>
+
+<template is="top"></template>
+<view class="classify-item">
+  <button bindtap="getSubjects" data-subject="science" class='{{subject == "理科" ? "select": ""}}'>理科</button>
+  <button bindtap="getSubjects" data-subject="engineering" class='{{subject == "工科" ? "select": ""}}'>工科</button>
+  <button bindtap="getSubjects" data-subject="art" class='{{subject == "文科" ? "select": ""}}'>文科</button>
+</view>
+<template is="book" data="{{bookLeftList:bookLeftList, bookRightList:bookRightList}}"></template>

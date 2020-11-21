@@ -1,0 +1,46 @@
+/* book/pages/register/register.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.group{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30%;
+}
+
+.text{
+  width: 12%;
+  font-size:large;
+  font-weight: 500;
+  /* color: darkgrey; */
+  margin-left: 40rpx;
+  align-content: center;
+}
+.input{
+  width: 74%;
+  height: 100%;
+  align-content: flex-end;
+  align-self: flex-end;
+  border-radius: 18rpx;
+  margin-left:0 ;
+  margin-right: 16rpx;
+  border: 2rpx solid #888;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e90ff;
+  color: white;
+  margin-top: 30rpx;
+}
+
+.button-active{
+  background-color: darkblue;
+  transform: 20s;
+}

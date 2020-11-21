@@ -1,0 +1,27 @@
+<!--book/pages/main/detail/detail.wxml-->
+<!-- <text>book/pages/main/detail/detail.wxml</text> -->
+<view class="userInfo">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{avatarUrl}}" mode="cover"></image>
+    <text class="nickName">{{nickname}}</text>
+  </view>
+  <view class="book-details">
+      <text>书名：{{book_title}}</text>
+      <text>类型：{{book_type}}</text>
+      <text>介绍：{{book_detail}}
+      </text>
+      <image src="{{book_picture}}" class="book-image" mode="widthFix"></image>
+  </view>
+
+  <view class="message">
+    <text class="message-title">全部留言</text>  
+    <view class="input-container">
+      <image src="/img/main/detail/note.png" class="img-message" ></image>
+      <input class="input-message" type="text" placeholder="book name" cursor="5" confirm-type="留言" maxlength="30" bindconfirm="note"/>
+    </view>
+    <view class="message-container">
+      <block wx:for="{{noteList}}" wx:key="key">
+        <text class='{{item.note_sender_id == book_releaser_id ? "boss" : "" }}' wx:if="{{item.note_sender_id == book_releaser_id }}">楼主：{{item.note_content}}</text>
+        <text  wx:else="">用户{{item.note_sender_id}}：{{item.note_content}}</text>
+      </block>
+    </view>
+  </view>

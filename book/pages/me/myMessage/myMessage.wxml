@@ -1,0 +1,8 @@
+<view class="message-container">
+  <block wx:for="{{noteList}}" wx:key="key">
+    <view bindtap="jump" data-id="{{item.note_book_id}}">
+      <text class="">用户{{item.note_sender_id}}：{{item.note_content}}
+      </text>
+    </view>
+  </block>
+</view>

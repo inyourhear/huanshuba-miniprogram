@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/main/index/index",
+    "pages/main/detail/detail",
+    "pages/release/release",
+    "pages/classify/classify",
+    "pages/me/me",
+    "pages/me/myRelease/myRelease",
+    "pages/me/about/about",
+    "template/top/top",
+    "template/book/book",
+    "pages/main/search/result",
+    "pages/certificat/certificat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e90ff",
+    "navigationBarTitleText": "换书吧",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/index/index",
+        "text": "首页",
+        "iconPath": "img/tabBar/index.png",
+        "selectedIconPath": "img/tabBar/index-select.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "img/tabBar/classify.png",
+        "selectedIconPath": "img/tabBar/classify-select.png"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "text": "发布",
+        "iconPath": "img/tabBar/release.png",
+        "selectedIconPath": "img/tabBar/release-select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "img/tabBar/me.png",
+        "selectedIconPath": "img/tabBar/me-select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

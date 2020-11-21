@@ -1,0 +1,122 @@
+/* book/pages/release/release.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+
+
+.title-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: #eeeeee;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title-container text{
+  font-size: 20px; 
+}
+
+.title-container input{
+  width: 80%;
+}
+
+.type-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: #eeeeee;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.subject-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: #eeeeee;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.type-container text{
+  font-size: 20px; 
+}
+
+.subject-container text{
+  font-size: 20px; 
+}
+
+.type-container radio-group radio{
+  margin: 15px;
+}
+
+.subject-container radio-group radio{
+  margin: 10px;
+}
+
+.introduce-container{
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: #eeeeee;
+  /* height: 30px; */
+  /* align-items: center; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.introduce-container text{
+  font-size: 20px; 
+
+}
+
+/* .introduce-container input{
+  width: 80%;
+} */
+
+.input-context{
+  margin-top: 10px;
+  width: 100%;
+  display: block;
+}
+
+.uploadImg{
+  margin-left: 30%;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.release-button{
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 10px;
+  /* width: 30px !important; */
+  margin-top: 20px;
+}
+
+.button-active{
+  background-color: darkblue;
+  transform: 20s;
+}
+
+.Uploaded{
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 60%;
+}

@@ -1,0 +1,3 @@
+<!--book/pages/me/myRelease/myRelease.wxml-->
+<import src="/template/book/book.wxml"></import>
+<template is="book" data="{{bookLeftList:bookLeftList, bookRightList:bookRightList}}"></template>
